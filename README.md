@@ -39,7 +39,7 @@ Function: Chat system for branch-consumer communication.
 Flow:
 Consumers or branches initiate chat by chatid
 MongoDB stores chat history
-Route: http://localhost:8080/dhruvishah/dmart/chat/{chatid}
+Route: http://localhost:8080/abhishek/dmart/chat/{chatid}
 4. ⭐ Review Service
 Function: Submit and manage product/branch reviews.
 Flow:
