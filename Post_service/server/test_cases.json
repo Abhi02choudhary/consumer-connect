@@ -1,0 +1,38 @@
+[
+    {
+        "description": "Verify that the Airbnb logo navigates to the homepage.",
+        "type": "link",
+        "action": "click",
+        "xpath": "//*[@id='react-application']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[3]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/HEADER[1]/DIV[1]/DIV[1]/A[1]",
+        "expected": "no_error"
+    },
+    {
+        "description": "Verify 'Stays' tab is clickable and active.",
+        "type": "button",
+        "action": "click",
+        "xpath": "//*[@id='search-block-tab-STAYS']",
+        "expected": "no_error"
+    },
+    {
+        "description": "Verify that 'Experiences' tab is clickable and active.",
+        "type": "button",
+        "action": "click",
+        "xpath": "//*[@id='search-block-tab-EXPERIENCES']",
+        "expected": "no_error"
+    },
+    {
+        "description": "Search for stays in 'Paris' and verify results are displayed.",
+        "type": "input",
+        "action": "input",
+        "xpath": "//*[@id='bigsearch-query-location-input']",
+        "input": "Paris",
+        "expected": "no_error"
+    },
+    {
+        "description": "Verify clear button",
+        "type": "button",
+        "action": "click",
+        "xpath": "//*[@id='react-application']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[3]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/HEADER[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/DIV[1]/DIV[2]",
+        "expected": "no_error"
+    }
+]
